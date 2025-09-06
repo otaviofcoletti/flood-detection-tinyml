@@ -1,3 +1,4 @@
+# English
 
 # Edge Impulse library for enoe_labels
 
@@ -14,3 +15,30 @@ Please refer to the following documentation to learn how to use this library:
 ## Example Projects
 
 For example projects, see 'Running your impulse locally' in the docs (https://docs.edgeimpulse.com/docs/running-your-impulse-locally-1). These pages have examples for virtually any platform under the sun including Linux, Mbed OS, Zephyr, FreeRTOS, and bare-metal on a wide range of platforms. These examples also show how to enable hardware acceleration on Cortex-M, Cortex-A, ARC DSPs and other platforms.
+
+# Portuguese
+
+Esse é um repositorio que contém um modelo de visão computacional de tinyml, 
+esse modelo está otimizado pela plataforma edge impulse, aqui está a SDK em C++ e as instruções para a execução
+
+### Dependências (Linux)
+
+#### Atualize a lista de pacotes
+sudo apt update
+
+#### OpenCV
+sudo apt install libopencv-dev
+
+#### Instale o compilador C (GCC) e C++ (G++)
+sudo apt install build-essential
+
+#### Instale dependências adicionais úteis
+sudo apt install gdb make cmake
+
+### Utilize o comando make para compilar a main e a SDK
+
+make
+
+### Se ocorrer algum erro ou quiser apagar os arquivos .o execute:
+make clean
+
